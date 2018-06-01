@@ -1,2 +1,2 @@
 # Php-Upload-blob-multiple
-upload blob to mysql using php, with image preview
+Uploading multiple files to mysql in Blob using PHP, with upload preview.
