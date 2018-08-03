@@ -10,7 +10,7 @@
 </head>
 <body>
 <?php
-$dbh = new PDO('mysql:host=$servername;dbname=$dbname', '$username', '$password');
+$dbh = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
 if (isset($_POST['btn'])) {
     $tag = strip_tags($_POST['tag']);
     foreach ($_FILES['myfile']['tmp_name'] as $key => $val) {
